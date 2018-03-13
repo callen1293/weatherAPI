@@ -1,7 +1,7 @@
 body {
     margin: auto;
     text-align: center;
-    background:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)) ,url(tiny-love-smell-landscapes-background-tropical-forests-jungles-beautiful-cloudy-rivers-trees-tall-freshdownload-roads-weather-peaksmountains.jpg) no-repeat center center fixed;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(tiny-love-smell-landscapes-background-tropical-forests-jungles-beautiful-cloudy-rivers-trees-tall-freshdownload-roads-weather-peaksmountains.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,6 +10,9 @@ body {
 
 #arrow{
     color: #d30704;
+    font-size: 20px;
+    background-color: #ed8f8b;
+    border-radius: 10px;
 }
 
 h3{

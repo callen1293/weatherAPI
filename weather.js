@@ -1,6 +1,9 @@
 $(document).ready(function(){
     
+    
     $('#submitbutton').click(function(){
+        
+        $('#show').hide().fadeIn(2000);
         
         var city = $('#city').val();
         
