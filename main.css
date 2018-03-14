@@ -67,6 +67,10 @@ button{
     margin-left: 10px;
   }
 
+input:focus {
+outline: none;
+}
+
 
 
 /* media queries */
