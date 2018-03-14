@@ -3,7 +3,6 @@ $(document).ready(function(){
     
     $('#submitbutton').click(function(){
         
-        $('#show').hide().fadeIn(2000);
         
         var city = $('#city').val();
         
@@ -19,7 +18,14 @@ $(document).ready(function(){
                     
                     $('#show').html(widget);
                     
+                    $('#show').hide().fadeIn(2000);
+                    
                     $('#city').val('');
+                    
+                    $('#arrow').hide();
+                    
+                    
+        
                 
                 
             }
@@ -29,9 +35,11 @@ $(document).ready(function(){
             
             
         }else{
-            $('#arrow').html('Field Cannot Be Empty');
+            $('#arrow').html('Field Cannot Be Empty').show();
             
         }
+        
+        
         
     
         

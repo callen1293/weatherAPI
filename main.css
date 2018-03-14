@@ -9,10 +9,23 @@ body {
 }
 
 #arrow{
-    color: #d30704;
-    font-size: 20px;
-    background-color: #ed8f8b;
-    border-radius: 10px;
+    color: #ff3030;
+    font-size: 35px;
+  
+}
+
+.currentweather{
+    
+    color: rgba(164, 197, 252,0.5);
+    font-size: 50px;
+    
+}
+
+.entername > h4 {
+    
+    color: rgba(164, 197, 252,0.5);
+    font-size: 50px;
+    
 }
 
 h3{
@@ -22,24 +35,27 @@ h3{
 }
 
 ::placeholder {
-    color: #ffffff;
+    color: rgba(164, 197, 252,0.5);
 }
 
 #city{
     
     border: none;
-    border-bottom: 3px black solid;
+    border-bottom: 4px #a4c5fc solid;
     width: 650px;
-    font-size: 40px;
+    font-size: 45px;
     margin-top: 30px;
     background: none;
     color: #ffffff;
+    margin-left: 45px;
 
 }
 
 button{
 
-    background-color: #a6f409;
+    background-color: rgba(191, 195, 201,0.6);
+    border-color: #a4c5fc;
+    border-width: 2.5px;
     color: #ffffff;
     border-radius: 10px;
     font-size: 20px;
@@ -47,4 +63,5 @@ button{
     padding-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-left: 10px;
 }
