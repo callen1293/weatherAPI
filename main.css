@@ -1,3 +1,4 @@
+
 body {
     margin: auto;
     text-align: center;
@@ -64,4 +65,24 @@ button{
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: 10px;
+  }
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 500px){
+    
+    #city{
+        width: 350px;
+        margin-left: -5px;
+        font-size: 30px;
+    }
+    
+    button {
+        
+        margin-top: 40px;
+    }
+    
+    
 }
