@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 function show(data){
     
-    return "<h3 style='font-size: 40px; font-weight: bold;'>Current Weather For " + data.name + ", " + data.sys.country +"</h3>" +
+    return "<h3 style='font-size: 30px; font-weight: bold;'>Current Weather For " + data.name + ", " + data.sys.country +"</h3>" +
            "<h3>Weather: <img src='http://openweathermap.org/img/w/"+data.weather[0].icon+".png'> "+ data.weather[0].description +"</h3>" +
            "<h3>Temperature: "+ data.main.temp +"&deg;F</h3>" +
            "<h3>Humidity: "+ data.main.humidity +"%</h3>" +
